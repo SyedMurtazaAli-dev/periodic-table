@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  .zoom {
+      padding: 3px;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+
+  .symbol {
+      text-align: center;
+      font-size: large;
+      font-weight: bold;
+  }
+
+
+  .name {
+      font-size: xx-small;
+      text-align: center;
+  }
+  .number {
+       font-size: xx-small;
+
+  }
+  .space {
+      width: 15px;
+  }
+  .h1 {
+      color: black;
+  }
